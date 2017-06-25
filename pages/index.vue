@@ -3,8 +3,8 @@
     <v-header :transparent="true" :selected="0"></v-header>
     <div class="page-content">
       <div class="banner-wrapper">
-        <img src="~static/stars.png" alt="" class="banner-stars">
-        <img src="~static/rocket.png" alt="" class="banner-rocket">
+        <img src="~static/index/stars.png" alt="" class="banner-stars">
+        <img src="~static/index/rocket.png" alt="" class="banner-rocket">
       </div>
     </div>
     <v-footer></v-footer>
