@@ -214,8 +214,8 @@
             color #fff
     .menu-list
       position absolute
-      height 210px
-      bottom -210px
+      height 200px
+      bottom -200px
       right 0
       width 100%
       background #edefed
@@ -223,7 +223,7 @@
       z-index -1
       border-bottom 1px solid #eeece8
       &.slide-enter-active, &.slide-leave-active
-        bottom -210px
+        bottom -200px
       &.slide-enter, &.slide-leave-active
         bottom 0
       .link-item
@@ -231,11 +231,11 @@
         width 100%
         padding 1em
         text-align center
-        font-size 1.2em
+        font-size 1.1em
         color rgba(0,0,0,0.8)
         cursor pointer
         text-decoration none
         &.selected
-          font-size 1.4em
+          font-size 1.3em
           color rgba(0,0,0,1)
 </style>
