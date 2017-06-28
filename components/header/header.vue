@@ -122,7 +122,7 @@
             transition all 0.2s linear 0s
           .title
             position absolute
-            left 85px
+            left 90px
             height header-height
             line-height @height
             height auto
@@ -137,10 +137,10 @@
               top 15px
             .title
               color #fff
-              left 60px
+              left 50px
               height mini-header-height
               line-height @height
-              font-size 2em
+              font-size 1.9em
             &:hover
               opacity 1
           @media only all and (max-width 768px)
@@ -149,10 +149,10 @@
               top 15px
             .title
               color #fff
-              left 60px
+              left 50px
               height mini-header-height
               line-height @height
-              font-size 2em
+              font-size 1.8em
             &:hover
               opacity 1
         .link-wrapper

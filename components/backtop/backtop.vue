@@ -61,4 +61,6 @@
     @media only all and (max-width 1400px)
       right 5%
       bottom 80px
+    @media only all and (max-width 768px)
+      display none
 </style>

@@ -6,6 +6,17 @@
         <img src="~static/index/stars.png" alt="" class="banner-stars">
         <img src="~static/index/rocket.png" alt="" class="banner-rocket">
       </div>
+     <!-- <vue-typer :text='typeText'
+               :repeat='Infinity'
+               :shuffle='true'
+               initial-action='typing'
+               :pre-type-delay='70'
+               :type-delay='200'
+               :pre-erase-delay='3000'
+               :erase-delay='120'
+               erase-style='backspace'
+               :erase-on-complete='false'
+               caret-animation='phase'></vue-typer>-->
     </div>
     <v-footer></v-footer>
     <v-backtop></v-backtop>
@@ -26,6 +37,11 @@
         ],
         meta: []
       }
+    },
+    data () {
+      return {
+          typeText: ['java', '快速建站']
+      };
     },
     components: {
       'v-header': Header,

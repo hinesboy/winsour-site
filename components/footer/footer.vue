@@ -101,7 +101,7 @@
               color #f6f6f6
       .right
         padding 15px
-        flex 0 0 35%
+        flex 0 0 32%
         justify-content flex-end
         border-left 1px solid #768193
         display flex
@@ -121,9 +121,7 @@
           .item
             line-height 30px
             color #a4aebd
-            font-size 1.1em
-            @media only all and (max-width 768px)
-              font-size 1.0em
+            font-size 1.0em
           .phone
             line-height 35px
             font-size 1.5em
