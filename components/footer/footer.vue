@@ -101,7 +101,7 @@
               color #f6f6f6
       .right
         padding 15px
-        flex 0 0 30%
+        flex 0 0 35%
         justify-content flex-end
         border-left 1px solid #768193
         display flex

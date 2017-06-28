@@ -6,7 +6,6 @@
         <img src="~static/index/stars.png" alt="" class="banner-stars">
         <img src="~static/index/rocket.png" alt="" class="banner-rocket">
       </div>
-      <!--<v-typed></v-typed>-->
     </div>
     <v-footer></v-footer>
     <v-backtop></v-backtop>
@@ -17,7 +16,6 @@
   import Header from '~components/header/header'
   import Footer from '~components/footer/footer'
   import Backtop from '~components/backtop/backtop'
-  import Typed from '~components/typed/typed'
   export default {
     scrollToTop: true,
     head () {
@@ -32,8 +30,7 @@
     components: {
       'v-header': Header,
       'v-footer': Footer,
-      'v-backtop': Backtop,
-      'v-typed': Typed
+      'v-backtop': Backtop
     }
   }
 </script>
