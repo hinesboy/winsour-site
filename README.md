@@ -11,7 +11,7 @@
 >> 配置settings secret，并添加到jenkins(secret text格式)
 
 > 安装node npm git等环境到服务器
-
+> 安装nginx
 
 > Winsour official website
 
