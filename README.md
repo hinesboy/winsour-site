@@ -1,5 +1,18 @@
 # winsour-site
 > 添加持续集成jenkins
+>> docker
+>> 安装jenkins ， 开放端口 
+>> 配置jenkins权限
+>> jenkins安装配置SSH plugin
+>> 新建持续集成项目
+
+> 通过github hook触发
+>> 配置github hook地址 
+>> 配置settings secret，并添加到jenkins
+
+> 安装node npm git等环境到服务器
+
+
 > Winsour official website
 
 ## Build Setup
