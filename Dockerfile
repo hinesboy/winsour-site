@@ -1,11 +1,15 @@
-FROM daocloud.io/node:5
-MAINTAINER hinesboy hines.zhu@gmail.com
-ENV HTTP_PORT 8080
-COPY . /app
-WORKDIR /app
+FROM centos:centos7
+MAINTAINER yourname@example.com
 
-RUN npm install --registry=https://registry.npm.taobao.org
+RUN yum -y update; yum clean all
+RUN yum -y install epel-release; yum clean all
+RUN yum -y install nodejs npm; yum clean all
 
-EXPOSE 8080
+# copy 程序代码到容器的/src 下
+ADD . /src
 
-CMD ["npm", "run" , "dev"]
+RUN cd /src; npm install
+
+EXPOSE 3000
+
+CMD ["node", "/src/index.js"]
