@@ -1,5 +1,5 @@
 # winsour-site
-> 添加持续集成
+> 添加持续集成jenkins
 > Winsour official website
 
 ## Build Setup
