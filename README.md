@@ -7,7 +7,7 @@
 >> 新建持续集成项目
 
 > 通过github hook触发
->> 配置github hook地址 
+>> 配置github hook地址  
 >> 配置settings secret，并添加到jenkins
 
 > 安装node npm git等环境到服务器
