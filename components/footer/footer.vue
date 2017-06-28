@@ -59,12 +59,10 @@
       position relative
       display flex
       height 100%
-      width 94%
       margin 0 auto
       padding 2.5em 0
       flex-wrap wrap
       @media only all and (max-width 1400px)
-        width 90%
         padding 2em 0
       .left
         flex 1
@@ -103,7 +101,7 @@
               color #f6f6f6
       .right
         padding 15px
-        flex 0 0 40%
+        flex 0 0 30%
         justify-content flex-end
         border-left 1px solid #768193
         display flex

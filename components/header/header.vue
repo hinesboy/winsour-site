@@ -107,10 +107,7 @@
         display flex
         justify-content space-between
         height 100%
-        width 94%
         margin 0 auto
-        @media only all and (max-width 1400px)
-          width 90%
         .logo-wrapper
           position relative
           flex 0 0 250px

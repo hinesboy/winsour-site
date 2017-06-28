@@ -6,7 +6,7 @@
         <img src="~static/index/stars.png" alt="" class="banner-stars">
         <img src="~static/index/rocket.png" alt="" class="banner-rocket">
       </div>
-      <v-typed></v-typed>
+      <!--<v-typed></v-typed>-->
     </div>
     <v-footer></v-footer>
     <v-backtop></v-backtop>
