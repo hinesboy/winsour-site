@@ -8,4 +8,4 @@ RUN npm install --registry=https://registry.npm.taobao.org
 
 EXPOSE 8081
 
-CMD ["npm", "start"]
+CMD ["npm", "run dev"]
