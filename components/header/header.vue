@@ -137,10 +137,10 @@
               top 15px
             .title
               color #fff
-              left 50px
+              left 52px
               height mini-header-height
               line-height @height
-              font-size 1.9em
+              font-size 1.8em
             &:hover
               opacity 1
           @media only all and (max-width 768px)
@@ -149,7 +149,7 @@
               top 15px
             .title
               color #fff
-              left 50px
+              left 52px
               height mini-header-height
               line-height @height
               font-size 1.8em
