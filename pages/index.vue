@@ -1,22 +1,14 @@
 <template>
   <div>
-    <v-header :transparent="true" :selected="0"></v-header>
-    <div class="page-content">
-      <div class="banner-wrapper">
-        <img src="~static/index/stars.png" alt="" class="banner-stars">
-        <img src="~static/index/rocket.png" alt="" class="banner-rocket">
-      </div>
-     <!-- <vue-typer :text='typeText'
-               :repeat='Infinity'
-               :shuffle='true'
-               initial-action='typing'
-               :pre-type-delay='70'
-               :type-delay='200'
-               :pre-erase-delay='3000'
-               :erase-delay='120'
-               erase-style='backspace'
-               :erase-on-complete='false'
-               caret-animation='phase'></vue-typer>-->
+    <v-header :transparent="false" :selected="0"></v-header>
+    <div class="page-content container">
+        <el-row class="banner-wrapper">
+          <el-col class="typed" :lg="12" :xs="24">
+          </el-col>
+          <el-col class="image" :lg="12" :xs="24">
+          </el-col>
+        </el-row>
+
     </div>
     <v-footer></v-footer>
     <v-backtop></v-backtop>
@@ -52,34 +44,17 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import "../assets/css/main.styl"
+
   .page-content
     height 1500px
     .banner-wrapper
       position relative
       width 100%
-      height 650px
-      margin-top -140px
-      transform skewY(-5deg)
-      transform-origin center
-      text-align center
-      background-image linear-gradient(180deg,#0d1a44 13%,#3c4f91 56%,#5fc1e4)
-      .banner-stars
-        transform skewY(5deg)
-        margin-top 220px
-        @media only all and (max-width 1000px)
-          display none
-      .banner-rocket
-        position absolute
-        transform skewY(5deg)
-        width 300px
-        bottom -100px
-        right 15%
-        @media only all and (max-width 768px)
-          right 35%
-          width 30%
-          height auto
-        @media only all and (max-width 500px)
-          right 25%
-          width 50%
-          height auto
+      height 550px
+      padding-top mini-header-height
+      .image
+        text-align center
+        img
+          max-width 100%
 </style>

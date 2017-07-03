@@ -96,10 +96,12 @@
     transition all 0.2s linear 0s
     &.mini
       height mini-header-height
+      box-shadow 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12)
       .bg-color
         background header-color
     @media only all and (max-width 768px)
       height mini-header-height
+      box-shadow 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12)
       .bg-color
         background header-color
     .bg-color
@@ -114,20 +116,20 @@
           height 100%
           .logo
             position absolute
-            top 20px
-            width 70px
+            top 25px
+            width 60px
             height auto
             left 0
             cursor pointer
             transition all 0.2s linear 0s
           .title
             position absolute
-            left 90px
+            left 85px
             height header-height
             line-height @height
             height auto
-            font-size 2.5em
-            color #fff
+            font-size 2.1em
+            color header-font-color
             opacity 0.9
             cursor pointer
             transition all 0.2s linear 0s
@@ -136,7 +138,6 @@
               width 40px
               top 15px
             .title
-              color #fff
               left 52px
               height mini-header-height
               line-height @height
@@ -148,11 +149,11 @@
               width 40px
               top 15px
             .title
-              color #fff
               left 52px
               height mini-header-height
               line-height @height
               font-size 1.8em
+              color header-font-color
             &:hover
               opacity 1
         .link-wrapper
@@ -164,14 +165,14 @@
             height header-height
             line-height header-height
             text-align center
-            color #fff
+            color header-font-color
             font-size 1.0em
             cursor pointer
             opacity 0.9
             transition all 0.2s linear 0s
             text-decoration none
             &:hover
-              opacity 1
+              color header-font-hover-color
             &.selected
               font-size 1.2em
           &.mini
@@ -179,10 +180,8 @@
               height mini-header-height
               line-height mini-header-height
               font-size 1em
-              color #fff
               &.selected
-                border-bottom 5px solid #93b3d3
-                font-weight 600
+                color header-font-hover-color
           @media only all and (max-width 768px)
             display none
         .extra-wrapper
@@ -201,26 +200,27 @@
           &.mini
             height mini-header-height
             line-height mini-header-height
-            color #fff
+            color header-font-color
           &:hover
             opacity 1
           @media only all and (max-width 768px)
             display inline-block
             height mini-header-height
             line-height mini-header-height
-            color #fff
+            color header-font-color
     .menu-list
       position absolute
       height 200px
-      bottom -200px
+      bottom -201px
       right 0
       width 100%
-      background #edefed
+      background #fff
+      box-shadow 0 1px 1px rgba(0, 0, 0, 0.1)
       transition all 0.2s linear 0s
       z-index -1
       border-bottom 1px solid #eeece8
       &.slide-enter-active, &.slide-leave-active
-        bottom -200px
+        bottom -201spx
       &.slide-enter, &.slide-leave-active
         bottom 0
       .link-item
