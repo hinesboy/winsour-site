@@ -33,7 +33,7 @@
             winsour@winsour.com
           </div>
           <div class="addr item">
-            南京市栖霞区紫东创意园------
+            南京市栖霞区紫东创意园
           </div>
         </div>
       </div>
